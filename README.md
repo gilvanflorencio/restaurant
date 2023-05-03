@@ -25,4 +25,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-parou no 23.22 mixin
+parou no 34.33  
+39.38 rever e next
+ json-server --watch db.json

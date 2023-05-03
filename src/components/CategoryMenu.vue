@@ -42,13 +42,13 @@ export default {
       selectedCategory: "",
     };
   },
-  mounted(){
-    this.onCategoryClick('pizza');
+  mounted() {
+    this.onCategoryClick("pizza");
   },
   methods: {
     onCategoryClick(id) {
       this.selectedCategory = id;
-      this.$store.dispatch('changeCategory', id);
+      this.$store.dispatch("changeCategory", id);
     },
     isActive(id) {
       return this.selectedCategory === id;
@@ -65,7 +65,7 @@ export default {
   background: white;
   display: flex;
   align-items: center;
-  
+
   ul {
     list-style: none;
     padding: 0;
@@ -122,9 +122,9 @@ export default {
 
     ul {
       display: flex;
-      justify-content: center;
       margin: 20px;
       overflow: scroll;
+      
       li {
         min-width: 78px;
       }

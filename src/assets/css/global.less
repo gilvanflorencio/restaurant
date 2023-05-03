@@ -1,28 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 // resetar o arquivo de css
 
 body {
-    background: @bg-color;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  background: @bg-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
-    margin: 0;
-
+  margin: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-button, input, select, textarea {
-    font-family: 'Poppins', sans-serif;
+button,
+input,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
 }
 
+.primary-button {
+  background: @pink;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 35px;
+}
+
+.secondary-button {
+  background: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 35px;   
+}
 @media @smartphones {
-    body {
-        background: white;
-    }
+  body {
+    background: white;
+  }
 }
