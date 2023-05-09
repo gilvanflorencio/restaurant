@@ -25,6 +25,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-parou no 34.33  
-39.38 rever e next
+46.45 fazer  e next
  json-server --watch db.json
