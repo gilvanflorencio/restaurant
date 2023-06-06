@@ -25,5 +25,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-46.45 fazer  e next
- json-server --watch db.json
+52.51 fazer  e next
+ json-server --watch db.json  
